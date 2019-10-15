@@ -1,0 +1,62 @@
+.content {
+  background-color: #f1f1f1;
+}
+.content .nav-bar {
+  background-color: #f1f1f1;
+}
+.content .nav-bar .nav-text {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+.content .nav-bar .nav-iocn {
+  color: #000;
+  font-size: 20px;
+}
+.content .mui-body .mui-grid-view.mui-grid-9 {
+  background-color: #fff;
+  border: 0;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+}
+.content .mui-body .mui-grid-view.mui-grid-9 .mui-table-view-cell {
+  border: 0;
+}
+.content .mui-body .mui-grid-view.mui-grid-9 .mui-table-view-cell img {
+  height: 40px;
+}
+.content .mui-body .mui-grid-view.mui-grid-9 .mui-table-view-cell .mui-media-body {
+  font-weight: 500;
+  font-size: 12px;
+}
+.content .van-notice {
+  height: 30px;
+  width: 98%;
+  bottom: -5px;
+  color: #ee5a5a;
+  border-radius: 100px;
+  background-color: #fff;
+}
+.content .van-notice span:first-child {
+  font-weight: 600;
+  color: red;
+}
+.content .van-grid /deep/ .van-item {
+  background-color: yellow;
+  bottom: -12px;
+}
+.content .van-grid /deep/ .van-item .van-grid-item__content {
+  padding: 0;
+}
+.content .van-grid /deep/ .van-item .van-grid-item__content span {
+  font-size: 10px;
+}
+.content .van-grid /deep/ .van-item .van-grid-item__content .van-image {
+  height: 30px;
+}
+.content .van-grid /deep/ .van-item .van-grid-item__content .van-tag {
+  font-size: 6px;
+  margin-top: -5px;
+  margin-left: 35px;
+  z-index: 1;
+}
