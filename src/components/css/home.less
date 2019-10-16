@@ -1,0 +1,141 @@
+// @fonts:16px;
+// #app{
+.content{
+    background-color: #f1f1f1;
+    font-size: 10px;
+
+    .nav-bar{
+        background-color: #f1f1f1;
+        .nav-text{
+            color: #000;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .nav-iocn{
+            color: #000;
+            font-size: 20px;
+        }
+    }
+
+    //grid宫格
+    .mui-body{
+        .mui-grid-view.mui-grid-9{
+          background-color: #fff;
+          border:0;
+          border-radius: 25px;
+          -moz-border-radius:25px;
+          .mui-table-view-cell{
+            border:0;
+                img {
+                    // width: 40px;
+                    height: 40px;
+                }
+                .mui-media-body {
+                    font-weight:500;
+                    font-size: 12px;
+                }
+            }
+        }
+      }
+
+
+    // 头条
+    .van-notice{
+        height: 30px;
+        width: 98%; 
+        margin-top: 5px;
+        color: rgb(238, 90, 90);
+        border-radius: 100px;
+        background-color: #fff;
+        span:first-child{
+            font-weight: 600;
+            color: red;
+        }
+    }
+
+    // 首列商品
+    .shop-header{
+        // background-color: red;
+        /deep/.van-item{
+            background-color: yellow;
+            margin-top: 8px;
+            .van-grid-item__content{
+                padding: 5px;
+                span{
+                    font-size: 10px;
+                }
+                .van-image{
+                    height:30px;
+                }
+                .van-tag{
+                    font-size: 6px;
+                    margin-top:-5px;
+                    margin-left:35px;
+                    z-index: 1;
+                }
+            }
+            
+        }
+    }
+
+    .shop-center{
+        margin-top: 5px;
+        // background-color: red;
+        /deep/.shop-center-item{
+            .center-left{
+                // background-color: red;
+                text-align: center;
+            }
+        }
+    }
+
+    // 红包专区
+    .shop-assistant{
+        margin-top: 5px;
+        .assistant-top{
+            background-color: #fff;
+            color:red;
+            text-align: center;
+            >span{
+                font-size: 12px;
+                font-weight: 600;
+            }
+            .assistant-left{
+                float: right;
+                /deep/.assistant-round{
+                    font-size: 7px;
+                }
+            }
+        }
+    }
+
+    //广告图片
+    .col-img{
+        margin-top: 5px;
+        height: 80px;
+        .img-image{
+            height: 80px;
+            width: 100%;
+        }
+    }
+
+    // 红包专区
+    .shop-home{
+        margin-top: 5px;
+        .home-top{
+            background-color: #fff;
+            color:red;
+            text-align: center;
+            >span{
+                font-size: 12px;
+                font-weight: 600;
+            }
+            .home-left{
+                float: right;
+                /deep/.home-round{
+                    font-size: 7px;
+                }
+            }
+        }
+    }
+}
