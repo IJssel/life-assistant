@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
   <div class="shopcar-container">
     
     <div class="goods-list">
@@ -136,16 +135,4 @@ export default {
     }
   }
 }
-=======
-  <div>
-    <h3>4</h3>
-  </div>
-</template>
-
-<script>
-</script>
-
-<style lang="scss" scoped>
-
->>>>>>> ba4807b509bf625526334a91d326444bce9b6776
 </style>

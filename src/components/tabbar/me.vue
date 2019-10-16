@@ -1,6 +1,5 @@
 <template>
   <div>
-<<<<<<< HEAD
     <van-checkbox-group class="card-goods" v-model="checkedGoods" >
       <van-checkbox
         class="card-goods__item"
@@ -41,14 +40,10 @@
       :button-text="submitBarText"
       @submit="onSubmit"
     />
-=======
-    <h3>5</h3>
->>>>>>> ba4807b509bf625526334a91d326444bce9b6776
   </div>
 </template>
 
 <script>
-<<<<<<< HEAD
 import { Checkbox, CheckboxGroup, Card, SubmitBar, Toast } from 'vant';
 import numbox from "../subcomponents/shopcar_numbox.vue";
 
@@ -162,10 +157,3 @@ export default {
   }
 }
 </style>
-=======
-</script>
-
-<style lang="scss" scoped>
-
-</style>
->>>>>>> ba4807b509bf625526334a91d326444bce9b6776
