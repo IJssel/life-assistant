@@ -10,7 +10,11 @@
     <div class="mui-body">
       <ul class="mui-table-view mui-grid-view mui-grid-9">
         <li class="mui-table-view-cell mui-media">
+<<<<<<< HEAD
           <router-link to="/home/goodslist">
+=======
+          <router-link to="/home">
+>>>>>>> ba4807b509bf625526334a91d326444bce9b6776
               <img src="../../images/icon1.png" alt="">
               <div class="mui-media-body">附近</div></router-link></li>
         <li class="mui-table-view-cell mui-media mui-col-xs-2.4 mui-col-sm-3"><router-link to="/home">
@@ -53,14 +57,20 @@
     </van-notice-bar>
 
     <!-- 商品首页 -->
+<<<<<<< HEAD
     <van-grid :border="false" :column-num="4" class="shop-header">
       <van-grid-item v-for="value in 4" :key="value" square class="van-item" to="/home">
+=======
+    <van-grid :border="false" :column-num="4" class="van-grid">
+      <van-grid-item v-for="value in 8" :key="value" square class="van-item" to="/home">
+>>>>>>> ba4807b509bf625526334a91d326444bce9b6776
         <span>三星生活</span>
         <van-image src="https://img.yzcdn.cn/vant/apple-1.jpg" class="van-image"/>
         <van-tag type="danger" round>积分兑换</van-tag>
       </van-grid-item>
     </van-grid>
 
+<<<<<<< HEAD
     <van-grid :border="false" :column-num="2" class="shop-center">
       <van-grid-item v-for="value in 4" :key="value" square class="shop-center-item" center="false" to="/home">
         <van-row>
@@ -194,6 +204,8 @@
       </van-grid-item>
     </van-grid>
 
+=======
+>>>>>>> ba4807b509bf625526334a91d326444bce9b6776
   </div>
 </template>
 

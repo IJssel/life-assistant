@@ -10,7 +10,11 @@
 </template>
 
 <script>
+<<<<<<< HEAD
 // import mui from "../../lib/mui/js/mui.min.js";
+=======
+import mui from "../../lib/mui/js/mui.min.js";
+>>>>>>> ba4807b509bf625526334a91d326444bce9b6776
 
 export default {
   mounted() {

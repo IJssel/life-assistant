@@ -1,6 +1,9 @@
 .content {
   background-color: #f1f1f1;
+<<<<<<< HEAD
   font-size: 10px;
+=======
+>>>>>>> ba4807b509bf625526334a91d326444bce9b6776
 }
 .content .nav-bar {
   background-color: #f1f1f1;
@@ -33,7 +36,11 @@
 .content .van-notice {
   height: 30px;
   width: 98%;
+<<<<<<< HEAD
   margin-top: 5px;
+=======
+  bottom: -5px;
+>>>>>>> ba4807b509bf625526334a91d326444bce9b6776
   color: #ee5a5a;
   border-radius: 100px;
   background-color: #fff;
@@ -42,6 +49,7 @@
   font-weight: 600;
   color: red;
 }
+<<<<<<< HEAD
 .content .shop-header /deep/ .van-item {
   background-color: yellow;
   margin-top: 8px;
@@ -56,11 +64,28 @@
   height: 30px;
 }
 .content .shop-header /deep/ .van-item .van-grid-item__content .van-tag {
+=======
+.content .van-grid /deep/ .van-item {
+  background-color: yellow;
+  bottom: -12px;
+}
+.content .van-grid /deep/ .van-item .van-grid-item__content {
+  padding: 0;
+}
+.content .van-grid /deep/ .van-item .van-grid-item__content span {
+  font-size: 10px;
+}
+.content .van-grid /deep/ .van-item .van-grid-item__content .van-image {
+  height: 30px;
+}
+.content .van-grid /deep/ .van-item .van-grid-item__content .van-tag {
+>>>>>>> ba4807b509bf625526334a91d326444bce9b6776
   font-size: 6px;
   margin-top: -5px;
   margin-left: 35px;
   z-index: 1;
 }
+<<<<<<< HEAD
 .content .shop-center {
   margin-top: 5px;
 }
@@ -111,3 +136,5 @@
 .content .shop-home .home-top .home-left /deep/ .home-round {
   font-size: 7px;
 }
+=======
+>>>>>>> ba4807b509bf625526334a91d326444bce9b6776

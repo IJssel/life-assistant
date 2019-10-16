@@ -1,5 +1,6 @@
 <template>
   <div>
+<<<<<<< HEAD
     <!-- 搜索框 -->
     <!-- <van-search v-model="value" placeholder="请输入搜索关键词" show-action shape="round" @search="onSearch">
       <div slot="action" @click="onSearch">搜索</div>
@@ -9,10 +10,14 @@
     <!-- 轮播图区域 -->
     <swiper :lunbotuList="lunbotuList" :isfull="true"></swiper>
     
+=======
+    <h3>2</h3>
+>>>>>>> ba4807b509bf625526334a91d326444bce9b6776
   </div>
 </template>
 
 <script>
+<<<<<<< HEAD
 import swiper from "../subcomponents/swiper.vue";
 
 export default {
@@ -43,6 +48,8 @@ export default {
     swiper
   }
 };
+=======
+>>>>>>> ba4807b509bf625526334a91d326444bce9b6776
 </script>
 
 <style lang="scss" scoped>

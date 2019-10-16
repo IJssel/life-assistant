@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="goods">
     <van-swipe class="goods-swipe" :autoplay="3000">
       <van-swipe-item v-for="thumb in goods.thumb" :key="thumb">
@@ -45,10 +46,15 @@
         立即购买
       </van-goods-action-button>
     </van-goods-action>
+=======
+  <div>
+    <h3>3</h3>
+>>>>>>> ba4807b509bf625526334a91d326444bce9b6776
   </div>
 </template>
 
 <script>
+<<<<<<< HEAD
 import {
   Tag,
   Col,
@@ -134,3 +140,10 @@ export default {
   }
 }
 </style>
+=======
+</script>
+
+<style lang="scss" scoped>
+
+</style>
+>>>>>>> ba4807b509bf625526334a91d326444bce9b6776
